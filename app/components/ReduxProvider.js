@@ -1,3 +1,11 @@
+import GlobalState from './../reducers/reducers';
+import { createStore } from 'redux';
+import { View } from 'react-native';
+import React from 'react';
+import GameScreen from './GameScreen';
+import {Provider} from 'react-redux';
+
+
 export default class ReduxProvider extends React.Component {
 
     constructor(props){
